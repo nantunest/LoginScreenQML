@@ -178,7 +178,6 @@ ApplicationWindow {
                 }
             }
 
-            width: varlistview.width
             height: (tagstr.height + addrstr.height)*1.6
             color: model.index % 2 == 0? "lightgray": Qt.lighter("gray")
             Text{
